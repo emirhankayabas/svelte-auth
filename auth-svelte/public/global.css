@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url("./styles/reset.css");
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border: 0;
+  box-sizing: border-box;
+  outline: 0;
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+input,
+select,
+textarea,
+button {
+  box-shadow: none !important;
+}
+
+.button {
+  width: 100%;
+  max-width: 200px;
+  font-size: 14px;
+  max-height: 36px;
+  line-height: 35px;
+  padding: 0 24px 0 24px;
+  background-color: #1a73e8;
+  color: #fff;
+  font-weight: 500;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.0107142857em;
+  cursor: pointer;
+  position: relative;
+  transition: border 280ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
+  appearance: none;
+}
+
+.button:hover {
+  background-color: #1967d2;
+}
+
+.button:focus {
+  background-color: #174ea6;
+}
+
+.transition-opacity {
+  transition: opacity 250ms;
+}
