@@ -1,2 +1,2 @@
 # svelte-auth
-Account creation and login application with Svelte.
+Registering, logging in, using Svelte.
